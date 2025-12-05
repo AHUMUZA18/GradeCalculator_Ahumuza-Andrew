@@ -10,6 +10,8 @@ namespace GradeCalculator
             Console.Write("Enter your score (0-100): ");
             int score = int.Parse(Console.ReadLine());
 
+
+
             string grade;
             if (score >= 90) grade = "A";
             else if (score >= 80) grade = "B";
